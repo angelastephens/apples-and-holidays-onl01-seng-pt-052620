@@ -96,9 +96,11 @@ def all_holidays_with_bbq(holiday_hash)
     if season == :spring
       holiday_values.each do |day, items| 
         items << "BBQ"
+      end
+    end
+  end
 end
 binding.pry
-end
 end
 
 
