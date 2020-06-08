@@ -98,7 +98,6 @@ def all_holidays_with_bbq(holiday_hash)
       return holiday_hash
     elsif 
         holiday_values ="BBQ"
-     binding.pry
       end
     end
   end
