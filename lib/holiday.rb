@@ -100,8 +100,8 @@ def all_holidays_with_bbq(holiday_hash)
         if stuff.include?("BBQ")
         array << holiday
       end
-    end
     return array
+    end
   end
 
 
