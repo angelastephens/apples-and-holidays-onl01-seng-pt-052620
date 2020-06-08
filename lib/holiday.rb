@@ -97,7 +97,7 @@ def all_holidays_with_bbq(holiday_hash)
     if holiday_values.include?("BBQ")
       return holiday_hash
     elsif 
-        holiday_values << BBQ
+        holiday_values = "BBQ"
      binding.pry
       end
     end
